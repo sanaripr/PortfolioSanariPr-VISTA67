@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PortfolioSanariPr-VISTA67/static/css/main.1fa0f799.css",
+    "main.js": "/PortfolioSanariPr-VISTA67/static/js/main.e73b0762.js",
+    "static/js/453.e5d4cdc2.chunk.js": "/PortfolioSanariPr-VISTA67/static/js/453.e5d4cdc2.chunk.js",
+    "static/media/profile.jpg": "/PortfolioSanariPr-VISTA67/static/media/profile.38db2fc9dec79bfae9f3.jpg",
+    "static/media/C-PortfolioLogo.jpg": "/PortfolioSanariPr-VISTA67/static/media/C-PortfolioLogo.b3939a0f36f206e0f6de.jpg",
+    "index.html": "/PortfolioSanariPr-VISTA67/index.html",
+    "main.1fa0f799.css.map": "/PortfolioSanariPr-VISTA67/static/css/main.1fa0f799.css.map",
+    "main.e73b0762.js.map": "/PortfolioSanariPr-VISTA67/static/js/main.e73b0762.js.map",
+    "453.e5d4cdc2.chunk.js.map": "/PortfolioSanariPr-VISTA67/static/js/453.e5d4cdc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa0f799.css",
+    "static/js/main.e73b0762.js"
+  ]
+}
