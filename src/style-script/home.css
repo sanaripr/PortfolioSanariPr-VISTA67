@@ -1,0 +1,231 @@
+/* Algemeen styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff5f8a;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Intro sectie */
+#intro {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #ff5f8a, #ff2a68);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 1s;
+    z-index: 999; /* Zorg ervoor dat intro boven de navbar komt */
+}
+
+.intro-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro-content button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: white;
+    color: #ff2a68;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.intro-content button:hover {
+    background: #ffbfd6;
+}
+
+/* Verberg sectie na klik */
+.hidden {
+    display: none;
+}
+
+/* Home sectie */
+#home {
+    background-color: #f4f4f4;
+    padding: 100px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn {
+    background-color: #ff5f8a;
+    padding: 15px 40px;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #ff2a68;
+}
+
+/* About sectie */
+#about {
+    padding: 50px 20px;
+    background: #ffe6eb;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-container img {
+    width: 15%;
+    height: 15%;
+    margin-right: 15px;
+    margin-left: -75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Projecten sectie */
+#projects {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #ffe6eb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact sectie */
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact form {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #ff5f8a;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #ff2a68;
+}
+
+/* Animatie effecten */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.hero-content {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Footer sectie */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
